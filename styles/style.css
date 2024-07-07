@@ -6,6 +6,7 @@
 @import url(quarto.css);
 @import url(valores.css);
 @import url(media-query.css);
+@import url(formulario.css);
 :root {
     /* TITULOS */
     --titulo-nivel1: 3.125rem;

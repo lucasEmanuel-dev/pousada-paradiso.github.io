@@ -1,0 +1,20 @@
+.formulario {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.formulario-h2-p {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+label {
+    display: block;
+    margin: .3rem 0;
+}
+
+input {
+    padding: 5px;
+    outline: none;
+}

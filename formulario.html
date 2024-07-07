@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pousada Paradiso</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media-css">
+</head>
+<body>
+
+    <!--CABEÇALHO -->
+    <header class="cabecalho">
+        <img class="cabecalho-logo" src="imagens/logotipo.png" alt="Logo da Paradiso">
+        <h1 class="cabecalho-h1">Pousada Paradiso</h1>
+        <p class="cabecalho-p">Conheça nossos chalés e nosso quarto comunitário, faça sua reserva e aproveite sua estadia!</p>
+    </header>
+
+    <!-- NAV -->
+     <div class="background-nav">
+         <nav class="nav">
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="#localizacao">Localização</a>
+                <a href="#chale">Chalés</a>
+                <a href="#quarto">Quarto</a>
+                <a href="#valores">Valores</a>
+            </div>
+            <div class="nav-reserve">
+                <a href="#formulario">RESERVE JÁ</a>
+            </div>
+         </nav>
+     </div>
+
+     <form class="formulario" action="#">
+        <div class="formulario-h2-p">
+            <h2>Formulário para reservas</h2>
+            <p>Preencha o formulário abaixo e entraremos em contato para dar andamento com sua reserva...</p>
+        </div>
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" placeholder="Seu nome completo..." required>
+        <label for="telefone">Telefone</label>
+        <input type="tel" name="telefone" id="telefone" placeholder="Seu telefone / whatsapp" required>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Seu email..">
+        <label for="hospedagem">Hospedagem</label>
+        <select name="hospedagem" id="hospedagem">
+            <option value="hos" selected disabled>Selecione</option>
+            <option value="hos">Chalé Plus</option>
+            <option value="hos">Chalé Master</option>
+            <option value="hos">Quarto</option>
+        </select>
+        <label for="entrada">Entrada</label>
+        <input type="date" name="entrada" id="entrada">
+        <label for="saida">Saída</label>
+        <input type="date" name="saida" id="saida">
+     </form>
+    
+</body>
+</html>
