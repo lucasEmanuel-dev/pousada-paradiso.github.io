@@ -1,7 +1,7 @@
 .background-secundario {
     background: var(--background-secundario);
 }
-#chale {
+#chales {
     max-width: 1000px;
     margin: auto;
     padding: 4rem 1rem;
