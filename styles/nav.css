@@ -1,0 +1,36 @@
+.background-nav {
+    background: var(--background-nav);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+    padding: .2rem 1rem;
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-links a {
+    color: var(--cor-branco-primario);
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+}
+
+.nav-links a:hover {
+    background: var(--background-nav-hover);
+    border-radius: 4px;
+}
+
+.nav-reserve a {
+    background: var(--background-reserve-ja);
+    color: var(--cor-branco-primario);
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    border-radius: 4px;
+}

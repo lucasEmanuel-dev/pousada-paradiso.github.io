@@ -1,0 +1,35 @@
+#localizacao {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+    align-items: center;
+    padding: 4rem 1rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+#localizacao img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.localizacao-conteudo .localizacao-h2 {
+    font-size: var(--titulo-nivel2);
+    margin-bottom: 1.5rem;
+}
+
+.localizacao-conteudo .localizacao-p {
+    font-size: var(--paragrafo-nivel2);
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
+}
+
+.localizacao-conteudo .localizacao-span {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+
+.localizacao-conteudo .localizacao-span span {
+    color: var(--cor-span)
+}

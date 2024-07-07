@@ -1,0 +1,55 @@
+#valores {
+    padding: 4rem 1rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+#valores .valores-h2 {
+    margin-bottom: 1.1rem;
+}
+
+#valores .valores-p {
+    margin-bottom: 1.3rem;
+    font-size: var(--paragrafo-nivel2);
+}    
+
+#valores .valores-informacoes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}    
+
+.valores-informacoes .valores-h3 {
+    color: var(--cor-branco-primario);
+    font-size: var(--titulo-nivel3);
+    font-weight: 700;
+    padding: 2rem 0;
+    text-align: center;
+    background: linear-gradient(rgba(255, 255, 255, .1), rgba(0, 0, 0, .9)), url(../imagens/topo.jpg);
+    background-size: cover;
+}
+
+.valores-informacoes ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}    
+
+.valores-informacoes ul li {
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem 0;
+}    
+
+.valores-informacoes ul .valores-nao {
+    color: var(--cor-deletado);
+    text-decoration: line-through;
+}    
+
+.valores-preco {
+    font-size: var(--paragrafo-nivel2);
+}
+
+.valores-preco span {
+    font-size: .9rem;
+}

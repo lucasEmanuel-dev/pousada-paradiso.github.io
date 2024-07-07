@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url(cabecalho.css);
+@import url(nav.css);
+@import url(localizacao.css);
+@import url(chale.css);
+@import url(quarto.css);
+@import url(valores.css);
+@import url(media-query.css);
+:root {
+    /* TITULOS */
+    --titulo-nivel1: 3.125rem;
+    --titulo-nivel2: 1.5rem; 
+    --titulo-nivel3: 1.17rem;
+
+    /* PARAGRAFOS */
+    --paragrafo-nivel1: 1.25rem;
+    --paragrafo-nivel2: 1.1rem;
+
+    /* BACKGROUND */
+    --background-nav: #5f5a5a;
+    --background-nav-hover: rgb(77, 67, 67);
+    --background-reserve-ja: #3b98ce;
+    --background-secundario: #f1f1f1;
+
+    /* CORES */
+    --cor-branco-primario: #ffffff;
+    --cor-deletado: #666666;
+    --cor-span: #2085C0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+svg {
+    width: 20px;
+    height: 20px;
+}
+
+ul {
+    list-style: none;
+}

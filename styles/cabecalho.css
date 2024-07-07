@@ -1,0 +1,23 @@
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: url(../imagens/topo.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 2rem 1rem;
+}
+
+.cabecalho-h1 {
+    font-size: var(--titulo-nivel1);
+    font-weight: 500;
+    color: var(--cor-branco-primario);   
+}
+
+.cabecalho-p {
+    font-size: var(--paragrafo-nivel1);
+    font-weight: 300;
+    color: var(--cor-branco-primario);
+}

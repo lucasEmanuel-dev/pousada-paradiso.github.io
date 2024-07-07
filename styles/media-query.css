@@ -1,0 +1,58 @@
+@media (max-width: 1000px) {
+    .cabecalho {
+        gap: 1rem;
+        padding-bottom: 5rem;
+    }
+    .cabecalho-h1 {
+        font-size: 2.5rem;
+    }
+    .cabecalho-p {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .nav-links a {
+        padding: 10px;
+    }
+    .nav-reserve a {
+        display: inline-block;
+        padding: 10px;
+    }
+    #localizacao,
+    #quarto {
+        grid-template-columns: 1fr;
+    }
+    #localizacao img,
+    #quarto img {
+        height: 300px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 600px) {
+    .cabecalho {
+        padding-bottom: 1rem;
+    }
+    .cabecalho-h1 {
+        font-size: 2rem;
+    }
+    .cabecalho-p {
+        font-size: 1rem;
+    }
+    .nav {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .background-nav {
+        background: transparent;
+    }
+    .nav-links a {
+        font-size: .875rem;
+        color: #111;
+    }
+    .nav-links a:hover {
+        background: none;
+    }
+    #valores .valores-informacoes {
+        grid-template-columns: 1fr;
+    }
+}
